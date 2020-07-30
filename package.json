@@ -6,6 +6,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "multi": "ionic serve --lab",
+    "ionic": "ionic serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -40,6 +42,7 @@
     "@angular/language-service": "^9.1.1",
     "@capacitor/cli": "^2.0.1",
     "@ionic/angular-toolkit": "^2.2.0",
+    "@ionic/lab": "3.1.7",
     "@types/jasmine": "^3.5.10",
     "@types/jasminewd2": "^2.0.8",
     "@types/node": "^13.11.1",

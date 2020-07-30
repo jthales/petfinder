@@ -11,14 +11,14 @@ Criar um aplicativo gratis para adocao de pets.
 - Opcao adotado para quando o PET conseguir um dono.
 - Um dashboard para mostrar quantas adocoes o app ajudou a se concretizar.
 
-CORE:
+### CORE:
 - Multi-plataforma (Android e IOS)
 - Ter funcionalidade de Cadastro.
 - Ter funcionalidade de adotado.
 - Ter informacoes sobre o PET.
 - Utilizar internacionalizacao. (Portugues, alemao, ingles)
 
-A Fazeres:
+### A Fazeres:
 - Verificar quem podera cadastrar o PET na plataforma.
 - Desenhar a plataforma.
 - Desenvolvimento.
