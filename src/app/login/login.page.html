@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Pet Finder</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid fixed>
+    <ion-row>
+      <ion-col size="12">
+
+        
+        <div class="form">
+
+          {{ LOGIN.LABEL-USER | translate }}
+
+          <!-- Usuario -->
+          <ion-item>
+            <ion-label position="floating">Usuario</ion-label>
+            <ion-input></ion-input>
+          </ion-item>
+
+          <!-- Senha -->
+          <ion-item>
+            <ion-label position="floating">Senha</ion-label>
+            <ion-input></ion-input>
+          </ion-item>
+
+          <!-- Entrar -->
+          <ion-button class="form__button" (click)="onClick()" expand="block" color="primary" shape="round">
+            Entrar
+          </ion-button>
+
+        </div>
+
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

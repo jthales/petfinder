@@ -1,3 +1,4 @@
+import { InternationalizationService } from './services/internationalization.service';
 import { Component } from '@angular/core';
 import { Plugins } from '@capacitor/core';
 const { SplashScreen } = Plugins;
@@ -8,7 +9,9 @@ const { SplashScreen } = Plugins;
   styleUrls: ['app.component.scss']
 })
 export class AppComponent {
-  constructor() {
+  constructor(
+    private readonly internationalizationService: InternationalizationService
+  ) {
     this.initializeApp();
   }
 

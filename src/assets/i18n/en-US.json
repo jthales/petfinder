@@ -1,0 +1,6 @@
+{
+    "LOGIN": {
+        "LABEL__USER": "User",
+        "LABEL__PASSWORD": "Password"
+    }
+}
